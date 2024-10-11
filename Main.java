@@ -84,4 +84,21 @@ System.out.println("9.Back to Main Menu");
           System.out.println();
           System.out.println("9.Back to Main Menu");
           System.out.println("0.Exit");
+          choice=sc.nextInt();
+          break;
+        default:
+          System.out.println("Invalid Choice");
+          System.out.println("9.Back to Main Menu");
+          System.out.println("0.Exit");
+          choice=sc.nextInt();
+          break;    
+   } 
+    
+  }
+    }
+    
+    
+  }
+}
+
        
