@@ -19,3 +19,20 @@ public class Showroom implements utility{
     System.out.println("No of Cars: "+no_of_cars);
     System.out.println("No of Employees: "+no_of_employees);
   }
+  @Override
+  public void set_details(){
+    System.out.println("======Enter Details of Showroom======");
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter Name: ");
+    name=sc.nextLine();
+    System.out.println("Enter Address: ");
+    address=sc.nextLine();
+    System.out.println("Enter Manager Name: ");
+    manager_name=sc.nextLine();
+    System.out.println("Enter No of Cars: ");
+    no_of_cars=sc.nextInt();
+    System.out.println("Enter No of Employees: ");
+    no_of_employees=sc.nextInt();
+    
+  }
+}
